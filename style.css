@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #72d1f6;
+}
+.grid {
+    text-align: center;
+    background: #72d1f6;
+    margin-top: -3%;
+    padding: 5%;
+    color: #034262;
+    font-size: 1.2rem;
+
+}
+#users{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3rem;
+
+}
+.user{
+    margin: 1rem;  
+}
+.user img {
+    border: #fff solid 5px;
+    border-radius: 50%;
+}
+#btn {
+    padding: .5rem .6rem;
+    color: #fff;
+    background: none;
+    border: solid #fff 2px;
+    font-size: 1.1rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+#btn:hover{
+    background: #fff;
+    color:#72d1f6;
+}
+form {
+    background: #fff;
+    padding: 2rem;
+    color: #72d1f6;
+    margin: 2rem;
+    border: #72d1f6;
+    border-radius: 1rem;
+}
+input{
+    padding: .5rem;
+    margin: .6rem;
+    color: #72d1f6;
+    font-size: 1.2rem;
+    
+}
+.user a {
+    padding: .5rem .6rem;
+    color:#f8fafb;
+    background: none;
+    border: solid #f7f7f8 2px;
+    font-size: 1.1rem;
+    border-radius: 2rem;
+    
+    
+}
+
+.user a:hover {
+    background: #f7f7f8;
+    color: #3e92bc;
+    
+}
+
+.card a {
+    padding: .5rem .6rem;
+    color: #5dbbdb;
+    background: none;
+    border: solid #5dbbdb 2px;
+    font-size: 1.1rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+.card a:hover {
+    color: #f7f7f8;
+    background: #5dbbdb;
+    border: solid #5dbbdb 2px;
+}
